@@ -1,0 +1,3 @@
+"F:\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\LinerAlgebra.dir/objects.a
+F:\MinGW64\mingw64\bin\ar.exe cr CMakeFiles\LinerAlgebra.dir/objects.a @CMakeFiles\LinerAlgebra.dir\objects1.rsp
+F:\MinGW64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\LinerAlgebra.dir/objects.a -Wl,--no-whole-archive -o LinerAlgebra.exe -Wl,--out-implib,libLinerAlgebra.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\LinerAlgebra.dir\linklibs.rsp
